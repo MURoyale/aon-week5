@@ -1,0 +1,24 @@
+.mainLeftCont {
+    background-color: #3C97AF;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    overflow: hidden;
+    height: 92vh;
+    border-radius: 10px;
+}
+.textCont  {
+    padding-top: 80px;
+}
+.textCont h1 {
+  font-size: 36px;
+}
+.textCont p{
+ font-size: 18px;
+ font-weight: 300;
+}
+.theLines {
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
