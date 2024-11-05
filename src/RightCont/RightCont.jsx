@@ -4,12 +4,17 @@ import "./RightCont.css";
 import { useState } from "react";
 import Freelancer from "../Svg/Freelancer.jsx";
 import ClientIcon from "../Svg/ClientIcon.jsx";
-import ArroIcon from "../Svg/ArroIcon.jsx"
+import ArroIcon from "../Svg/ArroIcon.jsx";
+import { Link } from "react-router-dom";
+import LeftCont from "../leftCont/leftCont.jsx";
+import MainFlex from "../MainFlex/MainFlex.jsx";
 
 function RightCont() {
   const [value, setValue] = useState(""); // Default value is empty
 
   return (
+    <MainFlex>
+      <LeftCont/>
     <div className="mainRightCont">
       <div className="scralCont">
         <div className="scral"></div>
@@ -38,13 +43,16 @@ function RightCont() {
           <p>I’m a client searching for talented freelancers</p>
         </button>
       </div>
-      <button
-        className={value === "" ? "firstPageBtn" : "firstPageBtnActive"}
-        disabled={value === ""}
-      >
-        Next  <ArroIcon color={value !== "" ? "#fff" : "#999999"} />
-      </button>
+      <Link style={{textDecoration:"none"}} to='/m'>
+        <button
+          className={value === "" ? "firstPageBtn" : "firstPageBtnActive"}
+          disabled={value === ""}
+        >
+          Next <ArroIcon color={value !== "" ? "#fff" : "#999999"} />
+        </button>
+      </Link>
     </div>
+    </MainFlex>
   );
 }
 

@@ -9,13 +9,12 @@ function App() {
   return (
     <>
       <Container>
-        <div className="main">
-          <LeftCont />
           <RightCont />
-        </div>
       </Container>    
     </>
   );
 }
 
 export default App;
+
+
