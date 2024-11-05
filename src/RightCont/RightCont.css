@@ -39,24 +39,35 @@
 }
 
 .selectCont {
-    background-color: #fff;
+  background-color: #fff;
   border: 1px solid #ebebeb;
   width: 230px;
   padding: 16px 20px;
   border-radius: 10px;
 }
 .selectCont:hover {
-    border: 1px solid #000000;
-    cursor: pointer;
+  border: 1px solid #000000;
+  cursor: pointer;
 }
-.selectCont:focus {
-    background-color: #ECF6F9;
-    border: 1px solid #3C97AF;
+.selectContActice {
+  width: 230px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  background-color: #ecf6f9;
+  border: 1px solid #3c97af;
 }
+
 .selectCont h3 {
   font-size: 16px;
 }
 .selectCont p {
+  color: #999999;
+  font-size: 12px;
+}
+.selectContActice h3 {
+  font-size: 16px;
+}
+.selectContActice p {
   color: #999999;
   font-size: 12px;
 }
@@ -76,7 +87,7 @@
   cursor: not-allowed;
 }
 .firstPageBtnActive {
-  background-color: #3C97AF;
+  background-color: #3c97af;
   color: #fff;
   font-family: Exo;
   display: flex;
@@ -89,4 +100,7 @@
   font-size: 14px;
   cursor: pointer;
   margin-top: 190px;
+}
+.firstPageBtnActive:active {
+  background-color: #3c96afb0;
 }
