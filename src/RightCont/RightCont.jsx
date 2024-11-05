@@ -1,28 +1,14 @@
 import React from "react";
 import "./RightCont.css";
-import freeLancerIcon from "../assets/freeLancerIcon.svg";
-import clientIcon from "../assets/clientIcon.svg";
+// import freeLancerIcon from "../assets/freeLancerIcon.svg";
+// import clientIcon from "../assets/clientIcon.svg";
 import arrow from "../assets/arrow.svg";
 import { useState } from "react";
+import Freelancer from "../Svg/Freelancer.jsx";
+import ClientIcon from "../Svg/ClientIcon.jsx";
 
 function RightCont() {
-
-  const [selectedOption, setSelectedOption] = useState(null);
-  const [firstPBtn, setFirstPBtn] = useState(false)
-
-  const  btnOptione = () => {
-    setFirstPBtn(true)
-  }
-
-  const handleOptionClick = (option) => {
-    setSelectedOption(option); 
-  };
-
-  const handleNextClick = () => {
-    if (selectedOption) {
-      console.log("Navigating to the next page...");
-    }
-  };
+  const [value, setValue] = useState("");
 
   return (
     <div className="mainRightCont">
@@ -36,26 +22,20 @@ function RightCont() {
         <p>How do you plan to use this platform</p>
       </div>
       <div className="selectBody">
-        <button 
-          className={`selectCont ${selectedOption === 'freelancer' ? 'active' : ''}`} 
-          onClick={() => { handleOptionClick('freelancer'); btnOptione()}}
-        >
-          <img className="freeLancerImg" src={freeLancerIcon} alt="Freelancer Icon" />
+        <button className="selectCont" onClick={() => setValue("freelancer")}>
+          <Freelancer color={value === "freelancer" ? "#3C97AF" : "black"} />
           <h3>Freelancer</h3>
           <p>I’m a freelancer ready to work for projects</p>
         </button>
-        <button 
-          className={`selectCont ${selectedOption === 'client' ? 'active' : ''}`} 
-          onClick={() => {handleOptionClick('client'); btnOptione()}}
-        >
-          <img src={clientIcon} alt="Client Icon" />
+        <button className="selectCont" onClick={() => setValue("ClientIcon")}>
+          <ClientIcon color={value === "ClientIcon" ? "#3C97AF" : "black"} />
           <h3>Client</h3>
           <p>I’m a client searching for talented freelancers</p>
         </button>
       </div>
-      <button 
-        className={`firstPageBtn ${firstPBtn ? "firstPageBtnActive" : ""}`  }
-        disabled={!selectedOption}
+      <button
+        className={value === "" ? "firstPageBtn" : "firstPageBtnActive"}
+        disabled={value === ""}
       >
         Next <img src={arrow} alt="Arrow Icon" />
       </button>

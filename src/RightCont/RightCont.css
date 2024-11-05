@@ -53,9 +53,6 @@
     background-color: #ECF6F9;
     border: 1px solid #3C97AF;
 }
-.freeLancerImg:focus {
-  border-color: #3C97AF;
-}
 .selectCont h3 {
   font-size: 16px;
 }
@@ -76,6 +73,7 @@
   color: #999999;
   font-size: 14px;
   margin-top: 190px;
+  cursor: not-allowed;
 }
 .firstPageBtnActive {
   background-color: #3C97AF;
@@ -89,4 +87,6 @@
   align-items: center;
   justify-content: center;
   font-size: 14px;
+  cursor: pointer;
+  margin-top: 190px;
 }
