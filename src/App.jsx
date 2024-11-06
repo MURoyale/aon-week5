@@ -8,9 +8,7 @@ function App() {
   
   return (
     <>
-      <Container>
-          <RightCont />
-      </Container>    
+          <RightCont />   
     </>
   );
 }

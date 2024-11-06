@@ -3,7 +3,7 @@
     color: #fff;
     text-align: center;
     width: 50%;
-    height: 92vh;
+    height: 96vh;
     border-radius: 10px;
 }
 .textCont  {
@@ -18,6 +18,6 @@
  padding-top: 20px;
 }
 .theLines {
-    margin-top: 100px;
-    width: 100%;
+    margin-top: 50px;
+    width: 700px;
 }

@@ -1,4 +1,62 @@
-.numbCont h1 {
-    text-align: center;
-    margin-top: 100px;
+.mainNumbCont {
+  width: 40%;
+}
+.scralContMpage {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding-top: 80px;
+}
+.scralnoneActiveM {
+  height: 4px;
+  width: 100%;
+  background-color: #ebebeb;
+  border-radius: 10px;
+}
+.activeContainer {
+  height: 4px;
+  width: 100%;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.active50 {
+  height: 4px;
+  width: 50%;
+  background-color: #3c97af;
+  border-radius: 10px;
+}
+.activeM {
+  height: 4px;
+  width: 100%;
+  background-color: #3c97af;
+  border-radius: 10px;
+}
+.numbPageInfo h1 {
+  font-size: 35px;
+  margin-top: 14px;
+  text-align: center;
+}
+.numbPageInfo p {
+  font-size: 16px;
+  color: #999999;
+  margin-top: 4px;
+  text-align: center;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.countryNumber {
+  border: 1px solid #ebebeb;
+  
+}
+.inputFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
