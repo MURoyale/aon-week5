@@ -49,7 +49,7 @@ function RightCont() {
               <p>I’m a client searching for talented freelancers</p>
             </button>
           </div>
-          <Link style={{ textDecoration: "none" }} to="/m">
+          <Link style={{ textDecoration: "none" }} to="/Phone Number input">
             <button
               className={value === "" ? "firstPageBtn" : "firstPageBtnActive"}
               disabled={value === ""}

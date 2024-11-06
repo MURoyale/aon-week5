@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import "./index.css";
 import PhoneNumberPage from "./PhoneNumberPage/PhoneNumberPage";
+import PhoneCode from "./PhoneCode/PhoneCode";
 
 const router = createBrowserRouter([
   {
@@ -11,8 +12,12 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/m",
+    path: "/Phone Number input",
     element: <PhoneNumberPage />,
+  },
+  {
+    path: "/code number",
+    element: <PhoneCode/>,
   },
 ]);
 
