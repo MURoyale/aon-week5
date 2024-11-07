@@ -9,7 +9,6 @@ import Select from "react-select";
 import { Link } from "react-router-dom";
 
 function PhoneNumberPage() {
-  const [selectedOption, setSelectedOption] = useState(null);
   const [phoneNumber, setPhoneNumber] = useState("");
   const [isButtonDisabled, setIsButtonDisabled] = useState(true);
   const [isInputFocused, setIsInputFocused] = useState(false);

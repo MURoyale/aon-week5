@@ -1,6 +1,5 @@
 import React from "react";
-import Container from "../Container/Container";
-import "./leftCont.css";
+import "./LeftCont.css"
 import theLines from '../assets/theLines.svg'
 function LeftCont() {
   return (
