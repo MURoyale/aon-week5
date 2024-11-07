@@ -1,23 +1,128 @@
 .mainLeftCont {
-    background-color: #3C97AF;
-    color: #fff;
-    text-align: center;
-    width: 50%;
-    height: 96vh;
-    border-radius: 10px;
+  background-color: #3c97af;
+  color: #fff;
+  text-align: center;
+  width: 50%;
+  height: 96vh;
+  border-radius: 10px;
 }
-.textCont  {
-    padding-top: 80px;
+.textCont {
+  padding-top: 80px;
 }
 .textCont h1 {
   font-size: 36px;
 }
-.textCont p{
- font-size: 18px;
- font-weight: 300;
- padding-top: 20px;
+.textCont p {
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 20px;
 }
 .theLines {
+  margin-top: 50px;
+  width: 700px;
+}
+.leftContText{
+  padding: 0px 10px;
+}
+
+@media screen and (max-width: 1083px) {
+  .mainLeftCont {
+    background-color: #3c97af;
+    color: #fff;
+    text-align: center;
+    width: 45%;
+    height: 100vh;
+    border-radius: 10px;
+  }
+  .textCont {
+    padding-top: 80px;
+  }
+  .textCont h1 {
+    font-size: 30px;
+  }
+  .textCont p {
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  .theLines {
     margin-top: 50px;
-    width: 700px;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 982px) {
+  .mainLeftCont {
+    background-color: #3c97af;
+    color: #fff;
+    text-align: center;
+    width: 45%;
+    height: 105vh;
+    border-radius: 10px;
+  }
+  .textCont {
+    padding-top: 80px;
+  }
+  .textCont h1 {
+    font-size: 30px;
+  }
+  .textCont p {
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  .theLines {
+    margin-top: 50px;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 807px) {
+  .mainLeftCont {
+    background-color: #3c97af;
+    color: #fff;
+    text-align: center;
+    width: 45%;
+    height: 120vh;
+    border-radius: 10px;
+  }
+  .textCont {
+    padding-top: 80px;
+  }
+  .textCont h1 {
+    font-size: 30px;
+  }
+  .textCont p {
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  .theLines {
+    margin-top: 50px;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 776px) {
+  .mainLeftCont {
+    background-color: #3c97af;
+    color: #fff;
+    text-align: center;
+    width: 45%;
+    height: 120vh;
+    border-radius: 10px;
+    display: none;
+  }
+  .textCont {
+    padding-top: 80px;
+  }
+  .textCont h1 {
+    font-size: 30px;
+  }
+  .textCont p {
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  .theLines {
+    margin-top: 50px;
+    width: 600px;
+  }
 }

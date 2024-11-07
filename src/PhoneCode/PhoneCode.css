@@ -33,9 +33,9 @@
 .codeContainer {
   display: flex;
   justify-content: center;
-}
-.codeContainer {
   margin-top: 20px;
+  padding: 0px 16px;
+
 }
 .OtpInput input {
   padding: 12px 16px;
@@ -109,4 +109,34 @@
 }
 .resend p{
     font-weight: 400;
+}
+@media screen and (max-width:776px ) {
+
+  .codePageCont {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:450px ) {
+.codePageText h1 {
+  font-size: 28px;
+  margin-top: 14px;
+  text-align: left;
+}
+.OtpInput {
+  gap: 15px;
+}
+.codePageText p {
+  font-size: 12px;
+  color: #999999;
+  margin-top: 4px;
+  text-align: left;
+}
+.codeContainer {
+  margin-top: 60px;
+}
+.verifyBtn {
+  margin-top: 170px;
+}
 }

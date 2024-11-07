@@ -37,16 +37,20 @@ function RightCont() {
               <Freelancer
                 color={value === "freelancer" ? "#3C97AF" : "black"}
               />
-              <h3>Freelancer</h3>
-              <p>I’m a freelancer ready to work on projects</p>
+              <div className="btnInfo">
+                <h3>Freelancer</h3>
+                <p>I’m a freelancer ready to work on projects</p>
+              </div>
             </button>
             <button
               className={value === "client" ? "selectContActice" : "selectCont"}
               onClick={() => setValue("client")}
             >
               <ClientIcon color={value === "client" ? "#3C97AF" : "black"} />
-              <h3>Client</h3>
-              <p>I’m a client searching for talented freelancers</p>
+              <div className="btnInfo">
+                <h3>Client</h3>
+                <p>I’m a client searching for talented freelancers</p>
+              </div>
             </button>
           </div>
           <Link style={{ textDecoration: "none" }} to="/Phone Number input">

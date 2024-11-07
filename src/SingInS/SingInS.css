@@ -1,0 +1,27 @@
+.SingInSCont {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.singInSImg {
+    width: 250px;
+}
+.singInSImgCont {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 776px) {
+    .SingInSCont {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+  }
+  

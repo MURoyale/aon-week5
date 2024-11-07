@@ -43,9 +43,12 @@ function PhoneCode() {
             </div>
             <div className="codePageText">
               <h1>Enter Your Phone Number</h1>
-              <p>
+              <p className="pTage1">  
                 Enter your phone number to verify your identity and the validity
                 of your number to safely activate your account on the platform.
+              </p>
+              <p className="pTage">
+              Enter the verification code sent to +9647700000000 via WhatsApp
               </p>
             </div>
             <div className="codeContainer">
