@@ -5,6 +5,7 @@ import App from "./App";
 import "./index.css";
 import PhoneNumberPage from "./PhoneNumberPage/PhoneNumberPage";
 import PhoneCode from "./PhoneCode/PhoneCode";
+import Information from "./Information/Information";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/code number",
     element: <PhoneCode/>,
+  },
+  {
+    path: "/Information",
+    element: <Information/>,
   },
 ]);
 

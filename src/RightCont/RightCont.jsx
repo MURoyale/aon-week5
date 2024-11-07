@@ -11,7 +11,7 @@ import MainFlex from "../MainFlex/MainFlex.jsx";
 import Container from "../Container/Container.jsx";
 
 function RightCont() {
-  const [value, setValue] = useState(""); // Default value is empty
+  const [value, setValue] = useState("");
 
   return (
     <Container>

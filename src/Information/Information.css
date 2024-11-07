@@ -1,0 +1,42 @@
+.infomationContaner {
+    width: 40%;
+}
+
+.scralInfo {
+    height: 4px;
+    width: 100%;
+    background-color: #3c97af;
+    border-radius: 10px;
+  }
+
+.inputCont {
+margin-top: 30px;
+}
+.inputTake {
+    width: 100%;
+    border: none;
+    border: 1px solid #EBEBEB;
+    padding: 12px 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+}
+.inputCont p {
+    font-weight: 480;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.infoBtn {
+    font-family: Exo;
+    background-color: #ebebeb;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    color: #999999;
+    font-size: 14px;
+    margin-top: 83px;
+    cursor: not-allowed;
+}
