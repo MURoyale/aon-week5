@@ -73,6 +73,6 @@ position: relative;
 }
 @media screen and (max-width:450px ) {
     .infoBtn {
-        margin-top: 140px;
+        margin-top: 132px;
     }
   }
