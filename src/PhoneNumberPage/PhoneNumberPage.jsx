@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MainFlex from "../MainFlex/MainFlex.jsx";
 import Container from "../Container/Container";
-import LeftCont from "../leftCont/leftCont.jsx";
+import LeftCont from "../LeftCont/LeftCont.jsx";
 import iraqFlag from "../assets/iraqFlag.svg";
 import usaFlag from "../assets/usaFlag.svg";
 import "./PhoneNumberPage.css";

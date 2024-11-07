@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Container from "../Container/Container.jsx";
 import MainFlex from "../MainFlex/MainFlex.jsx";
-import LeftCont from "../leftCont/leftCont.jsx";
+import LeftCont from "../LeftCont/LeftCont.jsx";
 import "./PhoneCode.css";
 import { OtpInput } from "reactjs-otp-input";
 import counterIcon from "../assets/counterIcon.svg";

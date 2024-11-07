@@ -3,7 +3,7 @@ import "./SingInS.css";
 import congratulations from "../assets/congratulations.png";
 import Container from "../Container/Container.jsx";
 import MainFlex from "../MainFlex/MainFlex.jsx";
-import LeftCont from "../leftCont/leftCont.jsx";
+import LeftCont from "../LeftCont/LeftCont.jsx";
 
 function SingInS() {
   return (

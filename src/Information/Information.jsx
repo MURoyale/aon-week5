@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Information.css";
 import Container from "../Container/Container.jsx";
 import MainFlex from "../MainFlex/MainFlex.jsx";
-import LeftCont from "../leftCont/leftCont.jsx";
+import LeftCont from "../LeftCont/LeftCont.jsx";
 import Password from "./../Svg/Password.jsx";
 import { Link } from "react-router-dom";
 

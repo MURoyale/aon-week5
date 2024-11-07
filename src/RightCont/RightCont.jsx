@@ -6,7 +6,7 @@ import Freelancer from "../Svg/Freelancer.jsx";
 import ClientIcon from "../Svg/ClientIcon.jsx";
 import ArroIcon from "../Svg/ArroIcon.jsx";
 import { Link } from "react-router-dom";
-import LeftCont from "../leftCont/leftCont.jsx";
+import LeftCont from "../LeftCont/LeftCont.jsx";
 import MainFlex from "../MainFlex/MainFlex.jsx";
 import Container from "../Container/Container.jsx";
 
