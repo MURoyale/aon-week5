@@ -14,7 +14,7 @@ function SingInS() {
           <div className="singInSImgCont">
             <img className="singInSImg" src={congratulations} />
           </div>
-          <h1>Sigh in successful</h1>
+          <h1>Sign in successful</h1>
         </div>
       </MainFlex>
     </Container>
