@@ -42,10 +42,9 @@ function PhoneCode() {
               <div className="scralCodenoneActive"></div>
             </div>
             <div className="codePageText">
-              <h1>Enter Your Phone Number</h1>
+              <h1>Verify phone number</h1>
               <p className="pTage1">  
-                Enter your phone number to verify your identity and the validity
-                of your number to safely activate your account on the platform.
+              Enter the verification code sent to +9647700000000 via WhatsApp
               </p>
               <p className="pTage">
               Enter the verification code sent to +9647700000000 via WhatsApp
